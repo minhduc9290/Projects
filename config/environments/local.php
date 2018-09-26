@@ -152,8 +152,8 @@ return [
      */
     'Error' => [
         'errorLevel' => E_ALL,
-        'exceptionRenderer' => 'App\Error\AppExceptionRenderer',
-        'skipLog' => ['Cake\Network\Exception\NotFoundException', 'Cake\Network\Exception\BadRequestException'],
+        'exceptionRenderer' => 'Cake\Error\ExceptionRenderer',
+        'skipLog' => [],
         'log' => true,
         'trace' => true,
     ],
